@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Skin Consultation Busselton | Skin Analysis + LED $49 | Hidden Beauté Studio</title>
+<meta name="description" content="Not sure what your skin needs? The Hidden Beauté Advanced Skin Consultation in Busselton: skin analysis, a personal treatment plan and an LED session, $49.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<style>
+.quiz{background:var(--white);border-radius:22px;padding:34px;box-shadow:0 22px 50px -30px rgba(90,57,29,.45)}
+.q{display:none}.q.on{display:block}
+.opts{display:grid;gap:10px;margin-top:16px}
+.opts button{background:var(--cream);border:1px solid var(--stone);border-radius:14px;padding:15px 18px;text-align:left;font:inherit;color:var(--ink);cursor:pointer;transition:background .2s,border-color .2s}
+.opts button:hover{background:var(--sand);border-color:var(--caramel)}
+.bar{height:4px;background:var(--sand);border-radius:4px;margin-bottom:22px;overflow:hidden}
+.bar i{display:block;height:100%;width:33%;background:var(--caramel);transition:width .4s}
+</style>
+</head>
+<body>
+<div class="ribbon">Concept front-door offer page by Clinic Catalyst. The $49 price is our suggestion. <a href="index.html">Back to your plan &rarr;</a></div>
+
+<nav class="nav"><div class="wrap">
+  <a class="logo" href="home.html">Hidden Beauté<small>Studio &middot; Busselton</small></a>
+  <ul>
+    <li><a href="home.html#skin">Skin</a></li>
+    <li><a href="ipl.html">IPL</a></li>
+    <li><a href="consult.html">Skin Consultation</a></li>
+    <li><a href="home.html#rachael">Meet Rachael</a></li>
+    <li><a href="careers.html">Careers</a></li>
+    <li><a class="btn" href="#book">Book $49 consult</a></li>
+  </ul>
+  <button class="burger" aria-label="Menu">&#9776;</button>
+</div></nav>
+
+<section style="padding-top:64px">
+  <div class="wrap grid2">
+    <div>
+      <span class="eyebrow fade-up">Advanced Skin Consultation + LED &middot; $49</span>
+      <h1 class="fade-up d1">Spent a fortune on skincare and still not sure what your skin needs?</h1>
+      <p class="lead fade-up d2" style="margin-top:18px">Start here. A proper skin analysis, an honest chat about what's going on, and a plan made for your skin. Plus an LED session while we talk it through.</p>
+      <div class="btns fade-up d3"><a class="btn" href="#book">Book my consultation</a><a class="btn ghost" href="#quiz">Take the 30-second skin quiz</a></div>
+    </div>
+    <div class="arch fade-up d2" style="aspect-ratio:4/5;max-width:440px;justify-self:center"><img src="assets/facial.jpg" alt="Skin consultation and LED at Hidden Beauté Studio Busselton"></div>
+  </div>
+</section>
+
+<section class="bg-sand">
+  <div class="wrap">
+    <div class="narrow" style="text-align:center;padding:0">
+      <span class="eyebrow">What's included</span>
+      <h2>45 minutes that saves you years of guessing</h2>
+    </div>
+    <div class="grid4" style="margin-top:36px">
+      <div class="card reveal"><h3>Skin analysis</h3><p>We look at what's happening under the surface, not just what you see in the mirror.</p></div>
+      <div class="card reveal"><h3>Your goals</h3><p>What bugs you, what you've tried, and what you want your skin to feel like.</p></div>
+      <div class="card reveal"><h3>Your plan</h3><p>In-studio treatments, the homecare that suits you, and what to stop wasting money on.</p></div>
+      <div class="card reveal"><h3>LED session</h3><p>Dermalux LED while we talk. Your skin gets a boost and you get a moment to yourself.</p></div>
+    </div>
+    <p style="text-align:center;margin-top:28px;color:#6d5643">Book your first treatment on the day and we'll put your $49 towards it.</p>
+  </div>
+</section>
+
+<section id="quiz">
+  <div class="wrap grid2">
+    <div class="reveal">
+      <span class="eyebrow">Not sure where to start?</span>
+      <h2>The 30-second skin quiz</h2>
+      <p>Three quick questions and we'll point you to your best first step. No email needed to see your answer.</p>
+    </div>
+    <div class="quiz reveal">
+      <div class="bar"><i id="bar"></i></div>
+      <div class="q on" data-q="1"><h3>What bugs you most?</h3><div class="opts">
+        <button data-v="pig">Sun spots, pigmentation or uneven tone</button>
+        <button data-v="age">Fine lines and texture</button>
+        <button data-v="cong">Breakouts, congestion or scarring</button>
+        <button data-v="dull">It's just dull and tired</button></div></div>
+      <div class="q" data-q="2"><h3>How much time in the sun growing up?</h3><div class="opts">
+        <button>Basically lived at the beach</button><button>Some, sunscreen most of the time</button><button>Not much at all</button></div></div>
+      <div class="q" data-q="3"><h3>What have you tried so far?</h3><div class="opts">
+        <button>Lots of products, not much change</button><button>Facials here and there</button><button>Nothing yet, starting fresh</button></div></div>
+      <div class="q" data-q="4" id="result"><h3 id="rtitle"></h3><p id="rtext" style="color:#5b4634"></p><div class="btns"><a class="btn" id="rbtn" href="#book">Book my consultation</a></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid2">
+    <div class="round reveal" style="aspect-ratio:4/5"><img src="assets/rachael.jpg" alt="Rachael, Hidden Beauté Studio" style="object-position:center top"></div>
+    <div class="reveal">
+      <span class="eyebrow">Why we start with a consultation</span>
+      <h2>"I'd rather tell you what you don't need."</h2>
+      <p>So many women walk in with a bathroom full of products and no idea which ones are doing anything. We don't sell random treatments. We work out what your skin needs and build a plan you can actually stick to.</p>
+      <p>And whoever you see on the team, they're trained to my standard.</p>
+      <p style="font-family:var(--serif);font-style:italic;color:var(--choc);margin-top:14px">Rachael x</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-choc" id="book">
+  <div class="narrow" style="text-align:center">
+    <span class="eyebrow">Book your spot</span>
+    <h2>Advanced Skin Consultation + LED, $49</h2>
+    <p>Limited spots each week, so we can give every consultation proper time.</p>
+    <div class="btns" style="justify-content:center"><a class="btn light" href="http://hiddenbeautestudio.gettimely.com/">Book online</a><a class="btn ghost" style="color:#fff;border-color:#fff" href="tel:+61400632751">Call 0400 632 751</a></div>
+    <p class="small" style="margin-top:18px">2C 33-46 Albert Street, Busselton WA 6280</p>
+  </div>
+</section>
+
+<section class="bg-sand">
+  <div class="narrow">
+    <h2>Questions</h2>
+    <details><summary>Do I have to book a treatment afterwards?</summary><p>Not at all. You'll leave with a plan either way. If you do book on the day, your $49 goes towards your first treatment.</p></details>
+    <details><summary>Should I come with makeup on?</summary><p>Come as you are. We'll cleanse your skin before your analysis.</p></details>
+    <details><summary>Can I bring my skincare?</summary><p>Yes please. Bring photos or the products themselves and we'll tell you honestly what's working.</p></details>
+    <details><summary>I'm interested in IPL. Is this the right place to start?</summary><p>Yes. Every IPL starts with a consultation. You can also read more on our <a href="ipl.html">IPL page</a>.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap cols">
+    <div><h4>Hidden Beauté Studio</h4><p>2C 33-46 Albert Street, Busselton WA 6280<br>0400 632 751</p></div>
+    <div><h4>Skin</h4><p><a href="ipl.html">IPL Busselton</a><br><a href="home.html#treatments">Treatments</a></p></div>
+    <div><h4>Studio</h4><p><a href="home.html">Home</a><br><a href="careers.html">Work with us</a></p></div>
+  </div>
+  <div class="wrap small" style="margin-top:30px">Concept by Clinic Catalyst for Hidden Beauté Studio. <a href="index.html">Back to your plan</a></div>
+</footer>
+<script src="assets/site.js"></script>
+<script>
+(function(){
+  var step=1,first='';
+  var R={pig:['Start with a consultation, then IPL','Your answers point to pigment and sun damage. IPL is likely on your plan, and your consultation checks it suits your skin first.','ipl.html'],
+         age:['Start with a consultation, then Collagen Boosting','Texture and fine lines usually respond well to a collagen plan. We\'ll confirm at your consultation.','#book'],
+         cong:['Start with a consultation and a corrective plan','Congestion and scarring need the right order of treatments plus the right homecare. That\'s exactly what we map out.','#book'],
+         dull:['Start with a consultation + LED','Dull skin usually needs the basics fixed first. Your LED session on the day is a great start.','#book']};
+  document.querySelectorAll('.quiz .opts button').forEach(function(b){
+    b.addEventListener('click',function(){
+      if(step===1)first=b.dataset.v;
+      document.querySelector('.q[data-q="'+step+'"]').classList.remove('on');step++;
+      document.getElementById('bar').style.width=Math.min(step*25,100)+'%';
+      if(step===4){var r=R[first]||R.dull;document.getElementById('rtitle').textContent=r[0];document.getElementById('rtext').textContent=r[1];if(r[2]==='ipl.html'){document.getElementById('rbtn').textContent='Read about IPL';document.getElementById('rbtn').href='ipl.html'}}
+      document.querySelector('.q[data-q="'+step+'"]').classList.add('on');
+    });
+  });
+})();
+</script>
+</body>
+</html>
