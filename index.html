@@ -46,6 +46,11 @@ section{padding:64px 0;border-bottom:1px solid var(--line)}
 .btn{display:inline-block;margin-top:auto;text-align:center;background:var(--red);color:#fff;text-decoration:none;font-weight:700;padding:15px 22px;border-radius:40px}
 .btn.alt{background:var(--dark)}
 .btn:hover{opacity:.9}
+.addon{border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+.addon p{color:var(--muted);font-size:.92rem;margin-top:4px}
+.offer.soldout{opacity:.75;align-self:start}
+.offer.soldout h3{text-decoration:line-through;text-decoration-color:var(--red)}
+.so-tag{align-self:flex-start;font-family:'Montserrat',sans-serif;font-weight:800;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;background:var(--red);color:#fff;padding:6px 14px;border-radius:30px;margin-bottom:14px}
 footer{background:var(--dark);color:#9fbcb8;padding:40px 0;font-size:.88rem}
 footer b{color:#fff}
 @media(max-width:700px){.offers{grid-template-columns:1fr}header{padding:52px 0 48px}section{padding:48px 0}.item{grid-template-columns:34px 1fr;padding:16px}}
@@ -108,35 +113,33 @@ footer b{color:#fff}
   <div class="wrap">
     <span class="num">3</span>
     <h2>Our <span class="t">proposal</span></h2>
-    <p class="sub">You told us you're time-poor. Learning a system and then finding time to build it is where things stall. Two ways we can help:</p>
+    <p class="sub">You told us you're time-poor. Learning a system and then finding time to build it is where things stall. So we'll do it with you.</p>
     <div class="offers">
       <div class="offer main">
-        <h3>3-Day Clinic Catalyst Workshop</h3>
-        <p style="color:var(--muted);font-size:.92rem">Brisbane, 26-28 October. Max 10 businesses.</p>
+        <h3>30 days with us: fill your rooms</h3>
+        <p style="color:var(--muted);font-size:.92rem">We build it with you over 30 days, and you learn it as we go.</p>
         <ul>
-          <li>Claude automation for your studio</li>
-          <li>Meta ads, built live</li>
-          <li>Google ads, built live</li>
-          <li>Our ready-made skill library</li>
-          <li>30 days of support afterwards</li>
+          <li>3 campaigns built and running, made to get your treatment rooms booked</li>
+          <li>Your Black Friday offer planned and ready to go</li>
+          <li>Your Christmas campaign planned and ready to go</li>
         </ul>
-        <div class="price">$3,500 <small>including GST, your ABM price (normally $5,000). $550 deposit holds your seat.</small></div>
-        <a class="btn" style="margin-top:20px" href="https://www.cliniccatalyst.com.au/checkout">Secure my seat</a>
+        <div class="price">$3,500 <small>Basic: the 3 campaigns + Black Friday and Christmas planned.</small></div>
+        <div class="addon">
+          <b>Add: assessment pages + nurture automations</b>
+          <p>Online skin assessment pages, plus the email and SMS follow-up that runs on its own after every enquiry.</p>
+          <div class="price" style="font-size:1.3rem">+ $1,500</div>
+        </div>
+        <div class="addon">
+          <b>Add: your new website</b>
+          <p>Optional. We'll quote it once we know what you want.</p>
+        </div>
+        <a class="btn" style="margin-top:20px" href="mailto:mintpeachmedia@gmail.com?cc=kwotherspoon1982@gmail.com&subject=Hidden%20Beaut%C3%A9%20-%2030%20days">Let's get started</a>
       </div>
-      <div class="offer">
-        <h3>We build it with you</h3>
-        <p style="color:var(--muted);font-size:.92rem">We set it up, you learn it as we go.</p>
-        <ul>
-          <li>CRM working alongside Timely</li>
-          <li>Instant follow-up on every enquiry</li>
-          <li>AI receptionist for your DMs</li>
-          <li>IPL + consultation ad campaigns</li>
-          <li>Google reviews on autopilot</li>
-          <li>Reactivation of past clients</li>
-          <li>Your SEO pages built</li>
-        </ul>
-        <div class="price" style="font-size:1.3rem">Scoped to you <small>We'll price it on what you want first.</small></div>
-        <a class="btn alt" style="margin-top:20px" href="mailto:mintpeachmedia@gmail.com?cc=kwotherspoon1982@gmail.com&subject=Hidden%20Beaut%C3%A9%20-%20let%27s%20chat">Let's chat</a>
+      <div class="offer soldout">
+        <span class="so-tag">Sold out</span>
+        <h3>3-Day Clinic Catalyst Workshop</h3>
+        <p style="color:var(--muted);font-size:.92rem">Brisbane, 26-28 October.</p>
+        <p style="color:var(--muted);font-size:.92rem;margin-top:14px">The 30 days with us gives you the same result, built for your studio, without the trip.</p>
       </div>
     </div>
   </div>
